@@ -102,7 +102,7 @@ a:link {
   margin: 50px;
 }
 
-.cta {
+.cta-big {
   margin: 150px 50px 50px 50px;
   min-width: 200px;
   background-color: #e76f51;
@@ -113,12 +113,12 @@ a:link {
 }
 
 @media (min-width: 400px) {
-  .cta {
+  .cta-big {
     padding: 10px 50px 10px 50px;
   }
 }
 
-.cta:hover {
+.cta-big:hover {
   background-color: #c96045;
 }
 
@@ -126,7 +126,7 @@ footer {
   margin-left: 20px;
 }
 
-.cta-testers {
+.cta-small {
   min-width: 200px;
   padding: 4px 20px 4px 20px;
   background-color: #e9c46a;
@@ -136,7 +136,7 @@ footer {
   font-weight: bold;
 }
 
-.cta-testers:hover {
+.cta-small:hover {
   background-color: #caaa59;
 }
 
