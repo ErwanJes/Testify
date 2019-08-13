@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+}
+
+@media (min-width: 900px) {
+  body {
+    background: url("images/background.jpg") no-repeat right top fixed; 
+  }
+}
+
+body {
+  background-color: #2a9d8e;
+  margin: 0;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+a:link {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+}
+
+.no-style {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.small-margin li {
+  margin-top: 6px;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.white-link:hover {
+  color: #373a48;
+}
+
+.yellow {
+  color: #f6ca33;
+}
+
+.medium-space {
+  margin-bottom: 3em;
+}
+
+.small-space {
+  margin-bottom: 2em;
+}
+
+.xsmall-space {
+  margin-bottom: 1em;
+}
+
+.xxsmall-space {
+  margin-bottom: 0.5em;
+}
+
+.center {
+  text-align: center;
+}
+
+.align-img {
+  vertical-align: middle;
+}
+
+.headline {
+  margin: 150px 50px 50px 50px;
+  color: #ffffff;
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 50;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .headline {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .headline {
+    max-width: 80%;
+  }
+}
+
+.logo {
+  width: 200px;
+  margin: 50px;
+}
+
+.cta {
+  margin: 150px 50px 50px 50px;
+  min-width: 200px;
+  background-color: #e76f51;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+@media (min-width: 400px) {
+  .cta {
+    padding: 10px 50px 10px 50px;
+  }
+}
+
+.cta:hover {
+  background-color: #c96045;
+}
+
+footer {
+  margin-left: 20px;
+}
+
+.cta-testers {
+  min-width: 200px;
+  padding: 4px 20px 4px 20px;
+  background-color: #e9c46a;
+  color: #373a48;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.cta-testers:hover {
+  background-color: #caaa59;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
