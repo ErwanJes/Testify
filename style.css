@@ -112,9 +112,16 @@ a:link {
   font-weight: bold;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   .cta-big {
     padding: 10px 50px 10px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta-big {
+    padding: 4px 20px 4px 20px;
+    font-size: 22px;
   }
 }
 
@@ -140,7 +147,16 @@ footer {
   background-color: #caaa59;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
+@media (max-height: 850px) {
+  .footer {
+    height:200px;
+    margin-top:50px;
+  }
+}
+
+@media (min-height: 850px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
 }
