@@ -2,22 +2,29 @@ html {
   height: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a9d8e;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 @media (min-width: 900px) {
-  body {
+  #body-bg {
     background: url("images/background.jpg") no-repeat right top fixed; 
   }
 }
 
-body {
-  background-color: #2a9d8e;
-  margin: 0;
-  padding: 0;
+#body-bg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+}
+
+#body-color {
+  color:#ebebeb;
 }
 
 p {
@@ -159,4 +166,8 @@ footer {
     position: fixed;
     bottom: 0;
   }
+}
+
+.content {
+  padding: 10px 50px 50px 50px;
 }
